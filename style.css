@@ -1,0 +1,25 @@
+.card {
+  padding: 10px;
+  cursor: pointer;
+}
+.card img {
+  height: 250px;
+}
+
+#content {
+  width: 80%;
+  margin: auto;
+}
+
+#displayFull img {
+  height: 400px;
+}
+
+#preLoader {
+  background: #fff url("images/Loading_icon.gif") no-repeat center center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}

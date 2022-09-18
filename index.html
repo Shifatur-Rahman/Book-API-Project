@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book API Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="preLoader">
+      <!-- <img src="images/preloader.gif" alt="preloader image" /> -->
+    </div>
+
+    <h2 class="text-center text-info my-3">Search Your Book Here</h2>
+    <div class="input-group mb-3 w-50 m-auto">
+      <input
+        id="inputForm"
+        type="text"
+        class="form-control"
+        placeholder="Enter your book here"
+        aria-label="Recipient's username"
+        aria-describedby="button-addon2"
+      />
+      <button class="btn btn-outline-secondary" type="button" id="submitBtn">
+        Submit
+      </button>
+    </div>
+
+    <!-- Error message -->
+    <h3 class="text-center text-danger" id="error"></h3>
+
+    <!-- Display Full View -->
+
+    <div id="displayFull" class="w-50 m-auto mb-3"></div>
+    <!-- Display Item -->
+
+    <div id="content" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
